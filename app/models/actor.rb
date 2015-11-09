@@ -3,5 +3,5 @@ class Actor < ActiveRecord::Base
 
   def age
     return Time.now.year - year_of_birth
-
+  end
 end
